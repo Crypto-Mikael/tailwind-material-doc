@@ -1,0 +1,3 @@
+[submodule "packages/tailwind-material"]
+	path = packages/tailwind-material
+	url = https://github.com/Crypto-Mikael/tailwind-material.git
