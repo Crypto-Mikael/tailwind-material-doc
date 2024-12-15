@@ -9,5 +9,5 @@ export default {
 		extend: {}
 	},
 
-	plugins: [material({ primary: '#0f172a' })]
+	plugins: [material({ primary: '#6442d6' })]
 } satisfies Config;
