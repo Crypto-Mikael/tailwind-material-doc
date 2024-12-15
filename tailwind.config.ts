@@ -1,3 +1,5 @@
+import material from './packages/tailwind-material/dist';
+
 import type { Config } from 'tailwindcss';
 
 export default {
@@ -7,5 +9,5 @@ export default {
 		extend: {}
 	},
 
-	plugins: []
+	plugins: [material({ primary: '#0f172a' })]
 } satisfies Config;
