@@ -1,7 +1,7 @@
 <main class="lg:h-dvh p-4 overflow-y-auto flex-auto flex flex-col">
   <article class="bg-surface-container w-full h-1/2 p-4 rounded-3xl flex flex-col items-center justify-center gap-6">
     <h1 class="text-5xl lg:text-8xl font-bold text-center">Tailwind Material</h1>
-    <p class="text-xl lg:text-2xl text-center">This a <strong>is tailwind plugin.</strong> <br /> Design and build beautiful, usable products with Tailwind Material.</p>
+    <p class="text-xl lg:text-2xl text-center">This <strong>is tailwind plugin.</strong> <br /> Design and build beautiful, usable products with Tailwind Material.</p>
     <button class="md-button-filled w-fit lg:text-2xl lg:py-[20px] lg:px-12">Get Started</button>
   </article>
   <section class="flex flex-col items-center lg:items-stretch">
