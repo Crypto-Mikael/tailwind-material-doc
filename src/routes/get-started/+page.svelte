@@ -10,7 +10,7 @@
       <div class="relative pl-8">
         <span class="absolute left-1 size-6 flex items-center justify-center bg-surface-container rounded-md p-2">1</span>
         <div class="pl-4 pb-4">
-          <p class="font-extrabold">Install Tailwind CSS</p>
+          <p class="font-extrabold">Install Tailwind CSS & Library</p>
           <p class="text-on-surface-variant">Install tailwindcss via npm, and create your <code class="bg-surface-variant p-1 text-on-surface-variant rounded-lg">tailwind.config.ts</code> file.</p>
         </div>
       </div>
@@ -18,6 +18,7 @@
 
       <code>npm install -D tailwindcss</code>
       <code>npx tailwindcss init</code>
+      <code>npm install tailwind-material</code>
       </pre>
     </section>
     <section>
