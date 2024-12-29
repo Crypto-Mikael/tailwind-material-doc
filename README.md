@@ -1,38 +1,37 @@
-# sv
+# Tailwind Material
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[Documentation](https://www.tailwindmaterial.com/) · [NPM](https://www.npmjs.com/package/tailwind-material)
 
-## Creating a project
+## How to use
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+```html
+<!-- index.html  -->
+<!doctype html>
+<html lang="en" data-theme="light">
+	<!-- Add data-theme dark for dark mode light for light mode  -->
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<body>
+		....
+	</body>
+</html>
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```ts
+import { material } from 'tailwind-material';
+module.exports = {
+	content: ['./src/**/*.{js,jsx,ts,tsx}'],
+	theme: {
+		extend: {}
+	},
+	plugins: [material({ primary: '#000' })] // You can pass the initial pallet obj
+};
 ```
 
-## Building
+## Contributing
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This repo accepts external contributions, but i am definitily new at open source
+so please have that in mind.
