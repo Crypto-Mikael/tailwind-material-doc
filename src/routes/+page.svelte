@@ -6,7 +6,7 @@
   </article>
   <section class="flex flex-col items-center lg:items-stretch">
     <h1 class="text-4xl font-bold p-4">News & Updates</h1>
-    <a class="flex flex-row gap-6 flex-auto min-h-[418px]" href="/foundations">
+    <a class="flex max-w-fit flex-row gap-6 flex-auto min-h-[418px]" href="/foundations">
       <article class="h-auto bg-surface-container rounded-3xl max-w-sm cursor-pointer">
         <figure class="bg-primary h-1/2 rounded-3xl flex items-center justify-center">
           <h2 class="text-on-primary text-pretty text-8xl font-bold md-icon-button">invert_colors</h2>
