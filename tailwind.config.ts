@@ -1,4 +1,4 @@
-import material from './packages/tailwind-material/dist';
+import material from 'tailwind-material';
 
 import type { Config } from 'tailwindcss';
 
