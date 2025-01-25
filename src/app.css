@@ -1,3 +1,35 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.md-drawer {
+	@apply invisible fixed left-[88px] z-10 m-0 gap-1 flex h-dvh w-0 flex-col items-center overflow-x-hidden rounded-r-2xl border-surface-variant bg-surface-container py-4 duration-200;
+}
+
+.md-drawer::backdrop {
+	display: none;
+}
+
+.md-drawer:popover-open {
+	@apply visible flex w-60 border-l-[1px];
+}
+
+
+.md-summary {
+	summary {
+		@apply md-button hover:bg-primary/[0.08] justify-start cursor-pointer w-56 h-12 text-on-surface flex items-center;
+	}
+	list-style: none;
+
+	@apply flex flex-col items-center justify-center gap-2;
+	white-space: nowrap;
+}
+
+details>summary {
+	list-style: none;
+}
+
+.md-summary::marker {
+	@apply flex flex-col items-center justify-center gap-2;
+	
+}
