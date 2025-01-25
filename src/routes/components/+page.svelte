@@ -6,6 +6,7 @@
     All components are html only based being that they work 
     without any frameworks/package dependecy.
   </p>
+  <main class="flex gap-4">
   <section class="flex flex-col items-center lg:items-stretch">
     <a class="flex flex-row gap-6 flex-auto max-w-fit min-h-[418px]" href="/components/common-buttons">
       <article class="h-auto bg-surface-container rounded-3xl max-w-sm cursor-pointer">
@@ -21,4 +22,20 @@
       </article>
     </a>
   </section>
+  <section class="flex flex-col items-center lg:items-stretch">
+    <a class="flex flex-row gap-6 flex-auto max-w-fit min-h-[418px]" href="/components/common-buttons">
+      <article class="h-auto bg-surface-container rounded-3xl max-w-sm cursor-pointer">
+        <figure class="bg-suface h-1/2 rounded-3xl flex items-center justify-center bg-surface-container-high">
+          <button class="md-icon-button-filled">delete</button>
+        </figure>
+        <div class="flex flex-col p-4 gap-2">
+          <h2 class="text-2xl font-semibold">Icons Buttons</h2>
+          <p class="text-lg ">
+            Icon buttons help people take minor actions with one tap.
+          </p>
+        </div>
+      </article>
+    </a>
+  </section>
+</main>
 </div>
