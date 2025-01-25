@@ -65,9 +65,14 @@
 	</a>
 	<details class="md-summary">
 		<summary class="relative"><p>Buttons</p><p class="font-material text-2xl absolute right-3 icon-filled">arrow_drop_down</p></summary>
-		<a href="/components/common-buttons">
-			<button class={checkIfUrlIsEqualAndReturnButton('/components/common-buttons')}>Common Buttons</button>
-		</a>
+		<div class="flex flex-col gap-1">
+			<a href="/components/common-buttons">
+				<button class={checkIfUrlIsEqualAndReturnButton('/components/common-buttons')}>Common buttons</button>
+			</a>
+			<a href="/components/icon-buttons">
+				<button class={checkIfUrlIsEqualAndReturnButton('/components/icon-buttons')}>Icon buttons</button>
+			</a>
+		</div>
 	</details>
 </aside>
 {@render children()}
